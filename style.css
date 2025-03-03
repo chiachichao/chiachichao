@@ -1,31 +1,32 @@
 /* Define the custom font using @font-face */
 @font-face {
-    font-family: 'Kleisch-Regular';  /* Name the font as Kleisch-Regular */
-    src: url('fonts/Kleisch-Regular.woff') format('woff');  /* Correct the font file name */
+    font-family: 'CCJannon-Regular';  /* Name the font as Kleisch-Regular */
+    src: url('fonts/CCJannon-Regular.woff') format('woff');  /* Correct the font file name */
   
 }
 
 /* Apply the font to the body */
 body {
-    font-family: 'Kleisch-Regular', serif; /* Apply Kleisch-Regular font, with fallback to generic serif */
+    font-family: 'CCJannon-Regular', serif; /* Apply Kleisch-Regular font, with fallback to generic serif */
     font-weight: normal;  /* Ensure normal weight */
     justify-content: center;
     align-items: flex-start;
     background-color: #ffffff;
-    font-size: 15px;
-    line-height: 17px;
+    font-size: 17px;
     font-variant-numeric: oldstyle-nums;
+    line-height: 1.1;
 }
 
 h1 {
-    font-family: 'Kleisch-Regular', serif; /* Apply Kleisch-Regular font, with fallback to generic serif */
+    font-family: 'CCJannon-Regular', serif; /* Apply Kleisch-Regular font, with fallback to generic serif */
     font-weight: normal;  /* Ensure normal weight */
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
-    font-size: 15px;
-     line-height: 17px;
+    font-size: 17px;
     font-variant-numeric: oldstyle-nums;
+    line-height: 1.1;
+
 }
 
 
